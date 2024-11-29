@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename = 'style.css')}}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><h1>Gym Pro</h1></a>
+        <ul>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('membership') }}">Membership</a></li>
+          <li><a href="{{ url_for('about') }}">About Us</a></li>
+          <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="about">
+      <h2>Contact Us</h2>
+      <p>Email &#9993; : aishmuhammad388@gmail.com</p>
+      <p>Phone No &#128222; : 03021200598</p>
+    </section>
+
+    <section class="about">
+      <h2>Socials</h2>
+      <p>
+        <a href="https://www.instagram.com/aishhzz_/" target="_blank">
+          &#128247; Instagram</a
+        >
+      </p>
+      <p>
+        <a href="https://www.facebook.com/aishmustard/" target="_blank">
+          &#127183; Facebook</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://www.linkedin.com/in/muhammad-aish-02a7082b1/"
+          target="_blank"
+        >
+          &#128279; Linkedin</a
+        >
+      </p>
+    </section>
+  </body>
+</html>

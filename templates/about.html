@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename = 'style.css')}}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><h1>Gym Pro</h1></a>
+        <ul>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('membership') }}">Membership</a></li>
+          <li><a href="{{ url_for('about') }}">About Us</a></li>
+          <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="about">
+      <h2>About Gym Pro</h2>
+      <p>
+        At Gym Pro, we believe in empowering individuals to achieve their
+        fitness goals. With top-notch equipment and professional trainers, your
+        fitness journey is in safe hands.
+      </p>
+    </section>
+  </body>
+</html>
